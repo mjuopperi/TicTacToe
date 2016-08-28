@@ -13,4 +13,12 @@
         android:id="@+id/board"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"></TableLayout>
+
+    <Button
+        android:id="@+id/reset_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_reset"
+        android:layout_below="@+id/board"
+        android:onClick="resetGame" />
 </RelativeLayout>
